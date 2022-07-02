@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>CakeShop</title>
+</head>
+<body>
+
+    <div class="social-media">
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-facebook-square"></i></span>
+    </div>
+
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-list__item">
+                <a href="#">Home</a>
+            </li>
+            <li class="navbar-list__item">
+                <a href="">Recipes</a>
+            </li>
+            <li class="navbar-list__item">
+                <a href="">Blog</a>
+            </li>
+            <li class="navbar-list__item">
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>
+<hr>
+    <!-- Zdjęcie dodane przez Mariana Kurnyk: https://www.pexels.com/pl-pl/zdjecie/zdjecie-chleba-krojonego-1756060/ -->
+<section class="main-wlc">
+    <div class="main-wlc__text">
+        <h2>Welcome in</h2>
+        <h1>Tim Bakery</h1>
+    </div>
+</section>
+
+
+<!-- <section class="quick-story">
+    <h2>CakeShop</h2> <p>Founded in 1666. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius amet deleniti dolorem harum, veniam soluta vel qui cupiditate. Possimus autem modi minima placeat qui quos voluptatum a soluta repellendus quas culpa nobis omnis natus consequuntur blanditiis, illo corporis, animi nulla aspernatur porro nesciunt repudiandae voluptate dolores? Nihil eius magni optio.</p>
+</section> -->
+
+
+<!-- Zdjęcie dodane przez Vojtech Okenka: https://www.pexels.com/pl-pl/zdjecie/zdjecie-czekoladowe-ciastko-z-polewami-z-czerwonych-truskawek-1055272/ -->
+<section class="new-recipes">
+    <hr>
+    <h2>Here are 3 newest recipes of the day!</h2>
+    
+    <div class="recipes-grid">
+        <div class="recipe-box_new">
+            <div class="recipe-img">
+                <img src="img/recipe-cake.jpg" alt="">
+            </div>
+            <h5 class="recipe-title">
+                Cake
+            </h5>
+            <hr>
+            <small class="recipe-desc">
+                Lorem ipsum dolor sit amet...
+            </small>
+            <br>
+            <button class="myButton">
+                View recipe
+            </button>
+        </div>
+        <div class="recipe-box_new">
+            <div class="recipe-img">
+                <img src="img/recipe-cake.jpg" alt="">
+            </div>
+            <h5 class="recipe-title">
+                Cake
+            </h5>
+            <hr>
+            <small class="recipe-desc">
+                Lorem ipsum dolor sit amet...
+            </small>
+            <br>
+            <button class="myButton">
+                View recipe
+            </button>
+        </div>
+        <div class="recipe-box_new">
+            <div class="recipe-img">
+                <img src="img/recipe-cake.jpg" alt="">
+            </div>
+            <h5 class="recipe-title">
+                Cake
+            </h5>
+            <hr>
+            <small class="recipe-desc">
+                Lorem ipsum dolor sit amet...
+            </small>
+            <br>
+            <button class="myButton">
+                View recipe
+            </button>
+        </div>
+    </div>
+</section>
+
+ <section class="tim-intro">
+    <div class="tim-intro__img">
+        <!-- Zdjęcie dodane przez Gustavo Fring: https://www.pexels.com/pl-pl/zdjecie/mezczyzna-osoba-piekarnia-usmiechajacy-sie-7447284/ -->
+        <!-- <img src="img/tim.jpg" alt=""> -->
+    </div>
+    
+</section> 
+
+
+<section class="order-form">
+    <h2>Order your cake today!</h2>
+
+    <form action="#">
+        <label for="cake-type">
+            Cake type:
+        </label>
+        <select name="cake-type" id="cake-type">
+            <option value="cake">Cake</option>
+            <option value="wedding-cake">Wedding Cake</option>
+            <option value="random-cake">Random cake</option>
+            <option value="donut">Donuts</option>
+            <option value="sweets">Sweet Cake</option>
+        </select>
+        <label for="name">Your Name</label>
+        <input type="text" name="name">
+        <label for="email">Your email</label>
+        <input type="email" name="email" id="email">
+
+        <button class="btn-submit">Get a quote!</button>
+    </form>
+</section>
+
+
+<footer>
+    Made with cake by me!
+</footer>
+</body>
+</html>

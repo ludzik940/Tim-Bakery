@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Cookie', cursive;
+}
+
+body {
+    width: 80%;
+}
+
+
+/* ! NAVBAR */
+.social-media {
+
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+    font-size: 2.455rem;
+}
+
+
+nav {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.navbar-list {
+    flex-basis: 95%;
+    text-align: center;
+}
+
+.navbar-list__item {
+    display: inline;
+    padding: 50px;
+}
+
+.navbar-list__item > a {
+    font-size: 3.455rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list__item > a:hover {
+    text-decoration: underline;
+}
+
+
+/* ? main-wlc */
+
+.main-wlc {
+    margin-top: 50px;
+    background-image: url('img/bakery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0 -100px; */
+    height: 450px;
+
+    text-align: center;
+}
+
+.main-wlc__text {
+    position: relative;
+    top: 20%;
+}
+
+.main-wlc__text > h2 {
+    font-size: 5rem;
+}
+
+.main-wlc__text > h1 {
+    font-size: 12rem;
+}
+
+
+/* * new recipes grid */
+
+.new-recipes {
+    margin: 50px;
+}
+
+.new-recipes > h2 {
+    text-align: center;
+    font-size: 4.3rem;
+    padding: 25px;;
+}
+
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.recipe-box_new {
+    border: 1px solid black;
+    padding: 25px;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(84, 56, 76, 1);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(84, 56, 76, 1);
+    box-shadow: 0px 0px 10px -2px rgba(84, 56, 76, 1);
+    border-radius: 10px;
+}
+
+.recipe-img > img {
+    width: 400px;
+}
+
+.recipe-title{
+    /* text-align: center; */
+    font-size: 3rem;
+}
+
+.recipe-desc {
+    font-size: 1.5rem;
+}
+
+.myButton {
+    position: relative;
+    left: 50%;
+    margin: 25px 10px 10px 10px;
+    width: 45%;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #1f718c 5%, #019ad2 100%);
+	background-color:#1f718c;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:25px;
+	padding:6px 24px;
+}
+
+
+/* ? TIM intro */
+
+.tim-intro__desc {
+    text-align: right;
+    font-size: 5rem;
+}
+
+.tim-intro__img > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+}
